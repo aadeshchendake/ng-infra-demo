@@ -11,7 +11,7 @@ terraform {
     resource_group_name  = "rg-terraform-github-actions-state"
     storage_account_name = "aadeshterraform"
     container_name       = "tfstate"
-    key                  = "${{ secrets.STORAGEACCOUNT_KEY }}"
+    key                  = "DYN1SFSa4OTxier7HKJIgGyNYaMbtvzcP42KwFayB32Lcgg4XA9mJr1cZLqugFO3SaeLn8rF/c4w+AStQdHWjA=="
     use_oidc             = true
   }
 }
